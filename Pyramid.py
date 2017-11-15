@@ -6,7 +6,6 @@ import numpy as np
 
 imgName = "image.jpg"
 
-
 def downSample(img):
 	row, col, channel=img.shape
 	#print "row "+str(row)+"col "+str(col)
